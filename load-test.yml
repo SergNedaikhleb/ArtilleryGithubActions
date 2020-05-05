@@ -1,5 +1,5 @@
 config:
-  target: https://google.com
+  target: https://kenju.netlify.com
   phases:
     - duration: 30 #sec
       arrivalRate: 2
