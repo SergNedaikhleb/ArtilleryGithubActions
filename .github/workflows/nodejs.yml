@@ -3,11 +3,11 @@ on: [push]
 jobs:
   load-test-sample:
     runs-on: ubuntu-latest
-    name: A load test sample job
+    name: A performance test sample job
     steps:
     - uses: actions/checkout@master
-    - name: Load Test action step
-      id: load-test
+    - name: Perf Test action step
+      id: performance-test
       uses: ArtilleryGithubActions@master
       with:
         filepath: performance-test.yml
