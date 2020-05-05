@@ -8,6 +8,6 @@ jobs:
     - uses: actions/checkout@master
     - name: Perf Test action step
       id: performance-test
-      uses: SergNedaikhleb/ArtilleryGithubActions@master
+      uses: /ArtilleryGithubActions@master
       with:
         filepath: performance-test.yml
