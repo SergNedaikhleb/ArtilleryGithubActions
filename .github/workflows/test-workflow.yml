@@ -8,6 +8,6 @@ jobs:
     - uses: actions/checkout@master
     - name: Load Test action step
       id: load-test
-      uses: kenju/github-actions-artillery@master
+      uses: SergNedaikhleb/ArtilleryGithubActions/y@master
       with:
         filepath: load-test.yml
