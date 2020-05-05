@@ -10,4 +10,4 @@ jobs:
       id: load-test
       uses: kenju/github-actions-artillery@master
       with:
-        filepath: load-test.yml
+        filepath: performance-test.yml
